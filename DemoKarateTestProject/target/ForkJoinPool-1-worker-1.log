@@ -1,11 +1,46 @@
-17:50:23.355 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-17:50:24.755 request:
+18:46:31.286 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:46:32.997 request:
 1 > GET https://reqres.in/api/users/2
+1 > Accept: Application/json
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_271)
 
-17:50:24.785 java.net.UnknownHostException: reqres.in, http call failed after 30 milliseconds for URL: https://reqres.in/api/users/2
-17:50:24.785 http request failed: 
-java.net.UnknownHostException: reqres.in
+18:46:34.217 response time in milliseconds: 1210.02
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3569
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 65a9ad19b963038c-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 05 Jun 2021 13:16:34 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=FrQQHUHMSaLGYfX%2FiyiAOuFDSJIHK%2FlH9xynVWnQ%2F%2B1C4yyC4YcaBpcXPR3vIWZb2DN%2BT2Yws6gnuyMeJ3I3zn7%2F2KktXPVHjixAO8sCbZjk8q1g79xP"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a7dea84170000038c8213e000000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:46:34.373 [print] {
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+

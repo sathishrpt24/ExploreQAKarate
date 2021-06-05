@@ -1,1 +1,1 @@
-{"features":1,"ignored":0,"efficiency":0.08492618313689936,"failures":{"exploreqademo.getDemo":"getDemo.feature:6 - \njava.net.UnknownHostException: reqres.in"},"totalTime":1405.1037,"threads":5,"scenarios":1,"failed":1,"passed":0,"version":"0.9.6","elapsedTime":3309.0}
+{"features":1,"ignored":0,"efficiency":0.10166656910028272,"failures":null,"totalTime":3056.6054,"threads":5,"scenarios":1,"failed":0,"passed":1,"version":"0.9.6","elapsedTime":6013.0}

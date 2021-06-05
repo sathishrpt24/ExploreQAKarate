@@ -1,11 +1,13 @@
 Feature: Demonstrate the GET end to End use cases
 
+    ## response, responseTime, responseHeaders, responseCookies
     ############################################################
     # Sc-01 Retrieve data from GET API ------------------------#
     #  Step-1 HIT Url           -------------------------------#
     #  Step-2 Retrieve response -------------------------------#
     #  step-3 Verify expected conditions-----------------------#
     ############################################################
+
   Scenario: Retrive data from GET API
     Given url 'https://reqres.in/api/users'
     When method GET
