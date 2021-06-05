@@ -1,0 +1,14 @@
+<testsuite failures="1" name="exploreqademo/getDemo.feature" skipped="0" tests="1" time="1.405104">
+  <testcase classname="exploreqademo.getDemo" name="Validate get response" time="1.405104">
+    <failure message="getDemo.feature:6 - &#10;java.net.UnknownHostException: reqres.in">Given url 'https://reqres.in/api/users' ................................... passed
+And path '2' .............................................................. passed
+When method GET ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: getDemo.feature:6 - 
+java.net.UnknownHostException: reqres.in&#13;
+	at ✽.When method GET (getDemo.feature:6)&#13;
+
+Then print response ....................................................... skipped</failure>
+  </testcase>
+</testsuite>

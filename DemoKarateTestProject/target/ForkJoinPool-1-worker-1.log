@@ -1,0 +1,11 @@
+17:50:23.355 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+17:50:24.755 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_271)
+
+17:50:24.785 java.net.UnknownHostException: reqres.in, http call failed after 30 milliseconds for URL: https://reqres.in/api/users/2
+17:50:24.785 http request failed: 
+java.net.UnknownHostException: reqres.in
