@@ -21,12 +21,6 @@
             <version>0.9.6</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-core -->
-        <dependency>
-            <groupId>com.intuit.karate</groupId>
-            <artifactId>karate-core</artifactId>
-            <version>0.9.6</version>
-        </dependency>
         <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>

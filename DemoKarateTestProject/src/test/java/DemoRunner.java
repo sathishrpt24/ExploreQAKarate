@@ -16,7 +16,7 @@ public class DemoRunner {
 
     @Test
     public void testParallel() {
-        Results results = Runner.path("classpath:exploreqademo/getDemo.feature").parallel(5);
+        Results results = Runner.path("classpath:exploreqaReference/ExchangeRate.feature").tags("~@ignore").parallel(5);
         generateReport(results.getReportDir());
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
     }

@@ -1,8 +1,0 @@
-<testsuite failures="0" name="exploreqademo/getDemo.feature" skipped="0" tests="1" time="3.056605">
-  <testcase classname="exploreqademo.getDemo" name="Validate the single user information" time="3.056605">
-    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
-And header Accept = 'Application/json' .................................... passed
-When method GET ........................................................... passed
-Then print response ....................................................... passed</system-out>
-  </testcase>
-</testsuite>

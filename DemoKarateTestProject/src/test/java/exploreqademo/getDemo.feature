@@ -26,3 +26,12 @@ Feature: Testing req res get Scenario
     And header Accept = 'Application/json'
     When method GET
     Then print response
+
+    @Path
+  Scenario: Retrieve data from GET by passing parameters
+    Given url 'https://reqres.in'
+    And path '/api/users/2'
+    When method GET
+    Then status 200
+
+
