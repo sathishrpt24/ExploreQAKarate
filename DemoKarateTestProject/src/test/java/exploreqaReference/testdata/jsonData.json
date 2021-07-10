@@ -1,0 +1,18 @@
+{
+  "name": "Jason",
+  "age": 31,
+  "phone": [
+    "555-666-1234",
+    "415-515-8187"
+  ],
+  "children": [
+    {
+      "name": "Jenny",
+      "age": 5
+    },
+    {
+      "name": "Brian",
+      "age": 8
+    }
+  ]
+}
